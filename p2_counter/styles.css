@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+}
+
+#value {
+	font-size:200px;
+}
+
+button {
+	padding: 10px;
+	margin: 10px;
+	border: black solid 1px;
+}
