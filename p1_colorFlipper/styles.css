@@ -1,0 +1,67 @@
+body {
+	background-color: green;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+	background-color: purple;
+	color: white;
+	text-align: center;
+}
+
+.btn-hero {
+	text-align: center;
+	color: purple;
+	background-color: white;
+	margin: 15px 2px;
+	padding: 20px 20px;
+	font-size: medium;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: purple;
+}
+
+li {
+	float:left;
+}
+
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	border-right:1px solid #bbb;
+	border-left:1px solid #bbb;
+}
+
+li a:hover {
+	color: black;
+}
+
+h2 {
+	text-align: center;
+}
+
+.hex {
+	float: right;
+}
+
+.simple {
+	float:left
+}
+
+.container {
+	padding: 25px;
+	border-radius:5%;
+}
+
+
+.thecolor {
+	padding: 50px;
+}
