@@ -1,3 +1,4 @@
+//precisa ser criada uma lista com os objetos que serão utilizados para preencher o HTML
 const reviews = [
 {
 	id: 1,
@@ -36,6 +37,7 @@ const reviews = [
 },
 ];
 
+//pegamos todos os nome dos elementos do HTML e passamos para as variaveis abaixo
 const img = document.getElementById("game-img");
 const game = document.getElementById("game");
 const score = document.getElementById("score");
@@ -46,12 +48,16 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 
+//iniciamos como o objeto 0, pq se não iria iniciar sem nada na pagina
 let currentItem = 0;
 
+//determina que será aberta a janela com o item dentro da função showGame (e na primeira vez que é carregado, carrega com o valor 0)
+//DOMCONTENTLOADED obriga o JS a carregar a pagina
 window.addEventListener('DOMContentLoaded', function() {
 	showGame(currentItem)
 });
-
+//a função serve para pegar os valores do reviews e passar para uma novo objeto sem contaminar o original
+//também faz a mudança da página original para o do item
 function showGame(videogame) {
 	const item = reviews[videogame];
 	img.src = item.img;
