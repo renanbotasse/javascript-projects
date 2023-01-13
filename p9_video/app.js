@@ -6,7 +6,7 @@ btn.addEventListener("click", function () {
   if (!btn.classList.contains("slide")) {
     btn.classList.add("slide");
     video.muted = true;
-	muted.textContent = "Pause";
+	muted.textContent = "Mute";
   } else {
     btn.classList.remove("slide");
     video.muted = false;
