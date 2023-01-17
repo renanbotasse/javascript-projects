@@ -11,12 +11,13 @@
 	<header>
 		<h1>FIRE EMBLEM GAME</h1>
 	</header>
+    <main>
+        <div class="score-board">
+            <div class="badge" id="user-label">user</div>
+            <div class="badge" id="computer-label">comp</div>
+            <span id="uScore">0</span>:<span id="cScore">0</span>
+        </div>
 
-	<div class="score-board">
-		<div id="user-label" class="badge">USER</div>
-		<div id="computer-label" class="badge">GPT</div>
-		<span id="u-Score"> 0 </span> : <span id="c-Score">0</span>
-	</div>
 
 	<div class="result">
 		<p>Sword best Axes. You win!</p>
@@ -24,19 +25,18 @@
 
 	<div class="choices">
 		<div class="choice" id="r">
-			<img src="./rock.png" alt="" />
+			<img src="./rock.png" alt="Axe">
 		</div>
 		<div class="choice" id="p">
-			<img src="./paper.png" alt="" />
+			<img src="./paper.png" alt="Lance">
 		</div>
 		<div class="choice" id="s">
-			<img src="./scissors.png" alt="" />
+			<img src="./scissors.png" alt="Sword">
 		</div>
 	</div>
 	
-	<div>
 		<p id="action-message">Choose Your Weapon</p>
-	</div>
-	<script src="app.jss"></script>
+	</main>
+	<script src="app.js"></script>
 </body>
 </html>
