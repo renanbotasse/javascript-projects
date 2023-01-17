@@ -1,12 +1,12 @@
-const userScore = 0
-const computerScore = 0
-const userScorespan = document.getElementById("uScore")
-const computerScoreSpan = document.getElementById('cScore')
-const scoreBoardDiv = document.querySelector('.score-board')
-const resultDiv = document.querySelector('.result')
-const rockDiv = document.getElementById('r')
-const paperDiv = document.getElementById('p')
-const scissorsDiv = document.getElementById('s')
+const userScore = 0;
+const computerScore = 0;
+const userScorespan = document.getElementById("u-Score");
+const computerScoreSpan = document.getElementById('c-Score');
+const scoreBoardDiv = document.querySelector('.score-board');
+const resultDiv = document.querySelector('.result');
+const rockDiv = document.getElementById('r');
+const paperDiv = document.getElementById('p');
+const scissorsDiv = document.getElementById('s');
 
 function getComputerChoice() {
 	const choices = ['r', 'p', 's'];
