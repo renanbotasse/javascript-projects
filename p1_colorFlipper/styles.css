@@ -1,21 +1,29 @@
 body {
-	background-color: green;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #fef6e4;
+	font-family:'Gill Sans';
+	font-size: large;
 }
 
 .container {
-	background-color: purple;
-	color: white;
+	background-color: #8bd3dd;
+	color: #fef6e4;
 	text-align: center;
+	margin: 2%;
+	padding: 25px;
+	border: 10px;
+	border-radius: 40px;
 }
 
 .btn-hero {
 	text-align: center;
-	color: purple;
-	background-color: white;
-	margin: 15px 2px;
-	padding: 20px 20px;
-	font-size: medium;
+	color: #f582ae;
+	background-color: #fef6e4;
+	padding: 20px;
+	font-size: large;
+	font-weight: bold;
+	border: 2px solid #f582ae;
+	border-radius: 40px;	
+	cursor:help;
 }
 
 ul {
@@ -23,7 +31,8 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: purple;
+	background-color: #8bd3dd;
+	border-radius: 40px;
 }
 
 li {
@@ -33,19 +42,20 @@ li {
 
 li a {
 	display: block;
-	color: white;
+	color: #f582ae;
 	text-align: center;
 	padding: 18px 20px;
-	border-right:1px solid #bbb;
-	border-left:1px solid #bbb;
+	text-decoration: none;
 }
 
 li a:hover {
-	color: black;
+	color: #001858;
+
 }
 
 h2 {
 	text-align: center;
+	color:#f582ae;
 }
 
 .hex {
@@ -56,12 +66,7 @@ h2 {
 	float:left
 }
 
-.container {
-	padding: 25px;
-	border-radius:5%;
-}
-
 
 .thecolor {
-	padding: 50px;
+	padding: 40px;
 }

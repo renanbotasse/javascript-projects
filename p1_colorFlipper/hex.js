@@ -15,8 +15,3 @@ document.body.style.backgroundColor = hexColor;
 function getRandonN(){
 	return Math.floor(Math.random() * hex.length);
 };
-
-/* o hex faz mais ou menos a mesma coisa que o apps, a diferença é que quando clica
-ele faz um loop e gera um código de 6 digitos que são interpretados scomo uma cor
-por isso que substitui o mesmo hexColor no CSS e HTML.
-/*
