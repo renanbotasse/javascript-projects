@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body{
 	text-align: center;
+	font-family:"Inconsolata", "Montserrat", sans-serif;
 }
 
+h1 {
+	font-size: 75px;
+
+}
 #value {
 	font-size:200px;
 }
 
 button {
-	padding: 10px;
-	margin: 10px;
-	border: black solid 1px;
+	padding: 15px;
+	margin: 15px;
+	border: 1px solid #6246ea;
+	background-color: #d1d1e9;
+	border-radius: 4px;
+	font-weight: bold;
 }
