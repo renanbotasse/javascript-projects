@@ -1,15 +1,5 @@
-/*
-=============== 
-Fonts
-===============
-*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*
-=============== 
-Variables
-===============
-*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 :root {
   /* dark shades of primary color*/
@@ -69,18 +59,27 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+.title {
+  align-items: center;
+}
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  color: white;
   line-height: 1.5;
   font-size: 0.875rem;
+  
 }
 ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
+}
+p {
+  color: white;
 }
 img:not(.logo) {
   width: 100%;
@@ -171,6 +170,12 @@ p {
 /* section */
 .section {
   padding-bottom: 5rem;
+  color: white;
+}
+
+.section p {
+  padding-bottom: 5rem;
+  color: white;
 }
 
 .section-center {
@@ -213,9 +218,7 @@ nav {
 .fixed-nav .links a:hover {
   color: var(--clr-secondary);
 }
-/* .fixed-nav .links-container {
-  height: auto !important;
-} */
+
 .nav-header {
   display: flex;
   align-items: center;
@@ -300,8 +303,8 @@ nav {
 /* hero */
 header {
   min-height: 100vh;
-  background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-    url(./hero-bcg.jpeg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.125)),
+    url(./falcon.jpg) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
@@ -309,19 +312,46 @@ header {
   place-items: center;
   text-align: center;
 }
+
+#about {
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.125)),
+   url(./dragon.jpg) center/cover no-repeat;
+}
+
+#services {
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.125)),  
+  url(./starshield.jpg) center/cover no-repeat;
+}
+
+#tours {
+  background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.125)),
+  url(./starlink.jpg) center/cover no-repeat;
+}
+
+
+.section h2, h4,p {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .container h1 {
-  color: var(--clr-white);
+  color: white;
   text-transform: uppercase;
 }
 .container p {
-  color: var(--clr-white);
+  color: white;
   max-width: 25rem;
   margin: 0 auto;
   margin-bottom: 1.25rem;
 }
+
+
 @media screen and (min-width: 768px) {
   .container p {
     max-width: 40rem;
+    color: white;
   }
 }
 /* sections and title */
@@ -330,22 +360,19 @@ header {
   text-transform: uppercase;
 }
 .title span {
-  color: var(--clr-secondary);
+  color: white; 
 }
 #about,
 #services,
 #tours {
   height: 80vh;
 }
-#services {
-  background: var(--clr-white);
-}
 footer {
   background: var(--clr-grey-1);
   padding: 5rem 1rem;
 }
 footer p {
-  color: var(--clr-white);
+  color: white;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
