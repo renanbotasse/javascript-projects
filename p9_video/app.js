@@ -11,8 +11,6 @@ btn.addEventListener("click", function () {
     btn.classList.remove("slide");
     video.muted = false;
 	muted.textContent = "Play";
-
-	
   }
 });
 
