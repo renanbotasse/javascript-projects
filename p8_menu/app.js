@@ -2,67 +2,83 @@
 const menu = [
 	{
 	  id: 1,
-	  title: "Brazil 1970",
+	  name: "Brazil 1970",
 	  category: "national",
-	  price: " #10 Pele",
+	  best: "Pele",
 	  img: "./images/item-1.jpeg",
-	  desc: `FIFA World Cup`,
+	  desc: `Félix, Carlos Alberto, Everaldo, Brito, Piazza, Clodoaldo, Gérson, Rivellino, Jairzinho, Tostão and Pelé.`,
 	},
 	{
 	  id: 2,
-	  title: "Barcelona 10/11",
+	  name: "Barcelona 10/11",
 	  category: "league",
-	  price:  "#10 Messi",
+	  best:  "Messi",
 	  img: "./images/item-2.jpeg",
-	  desc: `UEFA Champions League`,
+	  desc: `Valdes, Puyol,	Touré, Piqué, Sylvinho, Xavi, Busquets, Iniesta, Messi, Eto'o and Henry.`,
 	},
 	{
 	  id: 3,
-	  title: "AC Milan 89-90",
+	  name: "AC Milan 89/90",
 	  category: "league",
-	  price: "#9  Van Basten",
+	  best: "Van Basten",
 	  img: "./images/item-3.jpeg",
-	  desc: `UEFA Champions League`,
+	  desc: `Galli, Tassotti, Maldini, Colombo, Costacurta, Baresi, Ancelotti, Rijkaard, van Basten, Gullit and Evani.`,
 	},
 	{
 	  id: 4,
-	  title: "Arsenal 03/04",
+	  name: "Arsenal 03/04",
 	  category: "league",
-	  price: "#14 Thierry Henry",
+	  best: "Thierry Henry",
 	  img: "./images/item-4.jpeg",
-	  desc: `Premier League`,
+	  desc: `Lehmann, Cole, Campbell, Toure, Lauren, Pires, Silva, Vieira, Ljunberg, Bergkamp and Henry.`,
 	},
 	{
 	  id: 5,
-	  title: "Real Madrid 59/60",
+	  name: "Real Madrid 59/60",
 	  category: "league",
-	  price: "#9  Di Stefano",
+	  best: "Di Stefano",
 	  img: "./images/item-5.jpeg",
-	  desc: `UEFA Champions League`,
+	  desc: `Dominguez, Marquitos, Pachin, Vidal, Santamaria, Zarraga, Canario, Di Stefano, Puskas and Gento.`,
 	},
 	{
 	  id: 6,
-	  title: "M. United 98/99",
+	  name: "M. United 98/99",
 	  category: "league",
-	  price: "#19 Dwight Yorke",
+	  best: "Yorke",
 	  img: "./images/item-6.jpeg",
-	  desc: `UEFA Champions League`,
+	  desc: `Schmeichel, Neville, Johnsen, Stam, Irwin, Giggs, Beckham, Butt, Blomqvist, Yorke and Cole.`,
 	},
 	{
 	  id: 7,
-	  title: "Germany 1974",
+	  name: "Germany 1974",
 	  category: "national",
-	  price: "#5  Beckenbauer ",
+	  best: "Beckenbauer ",
 	  img: "./images/item-7.jpeg",
-	  desc: `FIFA World Cup`,
+	  desc: `Maier, Vogts, Beckenbauer, Schwarzenbeck, Breitner, Bonhof, Overath, Hoeneß, Grabowski, Hölzenbein and Muller.`,
 	},
 	{
 		id: 8,
-		title: "Santos 1962",
+		name: "Santos 1962",
 		category: "league",
-		price: "#10  Pele",
+		best: "Pele",
 		img: "./images/item-8.jpeg",
-		desc: `Intercontinental Cup`,
+		desc: `Gilmar, Olavo, Mauro, Calvet, Dalmo, Lima, Zito, Dorval, Coutinho, Pelé and Pepe.`,
+	  },
+	  {
+		id: 9,
+		name: "Bayern Munich 75/76",
+		category: "league",
+		best: "Beckenbauer",
+		img: "./images/item-9.jpeg",
+		desc: `Maier, Hansen, Horsmann, Schwarzenbeck, Beckenbauer, Roth, Rummenigge, Dürnberger, Muller, Hoeneß and Kapellmann.`,
+	  },
+	  {
+		id: 10,
+		name: "Torino 47/48",
+		category: "league",
+		best: "Gabetto",
+		img: "./images/item-10.jpeg",
+		desc: `Bacgalupo, Ballarin, Toma, Loik, Rigamonti, Grezar , Menti, Castigliano, Gabetto, Martelli and Ossola.`,
 	  },
 
   ];
@@ -100,8 +116,8 @@ const menu = [
 			<img src=${item.img} alt=${item.title} class="photo" />
 			<div class="item-info">
 			  <header>
-				<h4>${item.title}</h4>
-				<h4 class="price">${item.price}</h4>
+				<h4>${item.name}</h4>
+				<h4 class="best">${item.best}</h4>
 			  </header>
 			  <p class="item-text">
 				${item.desc}
