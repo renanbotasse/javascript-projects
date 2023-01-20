@@ -5,8 +5,9 @@ The main objective of this list of little projects was training in Javascript an
 
 
 <h3>II - BASE</h3>
-I follow this list of projects for beginners from [freecodecamp](www.freecodecamp.org/news/javascript-projects-for-beginners) .These projects were created by John Smilga (https://github.com/john-smilga/javascript-basic-projects) and Ani Kubow (https://github.com/kubowania/memory-game).They also have videos explaining every detail, which you can check here:https://www.youtube.com/watch?v=3PHXvlpOkf4&t=6506s&ab_channel=freeCodeCamp.org
-https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org
+I follow this list of projects for beginners from www.freecodecamp.org .These projects were created by John Smilga and Ani Kubow.They also have videos explaining every detail, which you can check here:
+John - https://www.youtube.com/watch?v=3PHXvlpOkf4&t=6506s&ab_channel=freeCodeCamp.org
+Ani - https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org
 
 
 <h3>III - DESCRIPTION</h3>
