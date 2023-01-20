@@ -33,7 +33,7 @@ Key Topics: document.querySelectorAll(), forEach(), addEventListener(), currentT
 3 - Carousel
 </h4>
 <p>
-I changed the purpose from "personal reviews" to "games reviews", whit some of my favourites video games. I used the scoring list of IGN (https://www.ign.com/articles/the-best-100-video-games-of-all-time).This project is useful because you can use it in a lot of situations when you want the client to focus on one item at a time, but also can change the item.
+I changed the purpose from "personal reviews" to "games reviews", whit some of my favourites video games. I used the scoring list of IGN.This project is useful because you can use it in a lot of situations when you want the client to focus on one item at a time, but also can change the item.
 
 Key Topics: objects, DOMContentLoaded, addEventListener(), array.length and textContent.
 </p>
