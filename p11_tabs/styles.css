@@ -12,24 +12,7 @@ Variables
 */
 
 :root {
-  /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
-  --clr-primary-2: hsl(205, 77%, 27%);
-  --clr-primary-3: hsl(205, 72%, 37%);
-  --clr-primary-4: hsl(205, 63%, 48%);
-  /* primary/main color */
-  --clr-primary-5: #49a6e9;
-  /* lighter shades of primary color */
-  --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
-  --clr-primary-8: hsl(205, 86%, 81%);
-  --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-6: hsl(209, 23%, 60%);
@@ -67,9 +50,9 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  font-family: LicenseLicense;
+  background: rgba(49, 142, 49, 0.305);
+  color: black;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -110,7 +93,8 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: black;
+  text-align: justify;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -135,26 +119,7 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
-.btn {
-  text-transform: uppercase;
-  background: transparent;
-  color: var(--clr-black);
-  padding: 0.375rem 0.75rem;
-  letter-spacing: var(--spacing);
-  display: inline-block;
-  transition: var(--transition);
-  font-size: 0.875rem;
-  border: 2px solid var(--clr-black);
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: var(--radius);
-}
-.btn:hover {
-  color: var(--clr-white);
-  background: var(--clr-black);
-}
 /* section */
 .section {
   padding: 5rem 0;
@@ -190,7 +155,7 @@ About
 }
 
 .about-img {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .about-img img {
   border-radius: var(--radius);
@@ -232,13 +197,13 @@ About
   text-transform: capitalize;
   font-size: 1rem;
   display: block;
-  background: var(--clr-grey-9);
+  background: rgba(0, 128, 0, 0.378);
   cursor: pointer;
   transition: var(--transition);
   letter-spacing: var(--spacing);
 }
 .tab-btn:hover:not(.active) {
-  background: var(--clr-primary-10);
+  background: green;
   color: var(--clr-primary-5);
 }
 .about-content {
