@@ -11,9 +11,10 @@
 body {
   font-family: "Open Sans";
   color: rgb(0, 0, 0);
+  font-weight: bolder;
   line-height: 1.5;
   font-size: 0.875rem;
-  background: url(./hero.jpeg) no-repeat;
+  background: url(./hero.jpeg);
 }
 h3 {
   font-size: 1.25rem;
