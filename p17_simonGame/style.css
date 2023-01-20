@@ -15,21 +15,21 @@ body {
   
   #switches {
 	position: absolute;
-	font-family: 'Original Surfer', cursive;
+	font-family: 'Original Surfer';
 	margin-left: 26px;
 	margin-top: 110px;
   }
   
   .text2 {
 	position: absolute;
-	font-family: 'Original Surfer', cursive;
+	font-family: 'Original Surfer';
 	margin-left: 83px;
 	margin-top: 197px;
   }
   
   .text1 {
 	position: absolute;
-	font-family: 'Original Surfer', cursive;
+	font-family: 'Original Surfer';
 	margin-left: 19px;
 	margin-top: 142px;
   }
@@ -39,7 +39,7 @@ body {
   }
   
   #title {
-	font-family: 'Original Surfer', cursive;
+	font-family: 'Original Surfer';
 	position: absolute;
 	font-size: 40px;
 	margin-left: 35px;
@@ -79,8 +79,6 @@ body {
 	height: 250px;
 	width: 250px;
 	border-radius: 250px 0 0 0;
-	-moz-border-radius: 250px 0 0 0;
-	-webkit-border-radius: 250px 0 0 0;
 	background: darkgreen;
 	top: 50%;
 	left: 50%;
@@ -88,8 +86,6 @@ body {
 	border-style: solid;
 	border-width: 5px;
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
   }
   
   #topright {
@@ -97,8 +93,6 @@ body {
 	height: 250px;
 	width: 250px;
 	border-radius: 0 250px 0 0;
-	-moz-border-radius: 0 250px 0 0;
-	-webkit-border-radius: 0 250px 0 0;
 	background: darkred;
 	top: 50%;
 	left: 50%;
@@ -106,8 +100,6 @@ body {
 	border-style: solid;
 	border-width: 5px;
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
   }
   
   #bottomleft {
@@ -115,8 +107,6 @@ body {
 	height: 250px;
 	width: 250px;
 	border-radius: 0 0 0 250px;
-	-moz-border-radius: 0 0 0 250px;
-	-webkit-border-radius: 0 0 0 250px;
 	background: goldenrod;
 	top: 50%;
 	left: 50%;
@@ -124,8 +114,6 @@ body {
 	border-style: solid;
 	border-width: 5px;
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
   }
   
   #bottomright {
@@ -133,8 +121,6 @@ body {
 	height: 250px;
 	width: 250px;
 	border-radius: 0 0 250px 0;
-	-moz-border-radius: 0 0 250px 0;
-	-webkit-border-radius: 0 0 250px 0;
 	background: darkblue;
 	top: 50%;
 	left: 50%;
@@ -142,22 +128,16 @@ body {
 	border-style: solid;
 	border-width: 5px;
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
   }
   
   #inner-circle {
 	position: absolute;
 	background: grey;
-	border-radius: 50%;
+	border-radius:40%;
 	height: 250px;
 	width: 250px;
-	border-style: solid;
 	border-width: 10px;
 	top: 50%;
 	left: 50%;
 	margin: -125px 0px 0px -125px;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
   }
