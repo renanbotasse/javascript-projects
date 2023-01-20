@@ -5,10 +5,11 @@ The main objective of this list of little projects was training in Javascript an
 
 
 <h3>II - BASE</h3>
-I follow this list of projects for beginners from www.freecodecamp.org .These projects were created by John Smilga and Ani Kubow.They also have videos explaining every detail, which you can check here:
-John - https://www.youtube.com/watch?v=3PHXvlpOkf4&t=6506s&ab_channel=freeCodeCamp.org
-Ani - https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org
-
+<p>
+I follow this list of projects for beginners from [FreeCodeCamp](https://www.freecodecamp.org/news/javascript-projects-for-beginners/) . These projects were created by John Smilga and Ani Kubow.They also have videos explaining every detail, which you can check here: <br>
+[John -](https://www.youtube.com/watch?v=3PHXvlpOkf4&t=6506s&ab_channel=freeCodeCamp.org) <br>
+[Ani -](https://www.youtube.com/watch?v=lhNdUVh3qCc&ab_channel=freeCodeCamp.org)
+</p>
 
 <h3>III - DESCRIPTION</h3>
 
