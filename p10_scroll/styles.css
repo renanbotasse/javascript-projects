@@ -2,37 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 :root {
-  /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
-  --clr-primary-2: hsl(205, 77%, 27%);
-  --clr-primary-3: hsl(205, 72%, 37%);
-  --clr-primary-4: hsl(205, 63%, 48%);
-  /* primary/main color */
-  --clr-primary-5: #49a6e9;
-  /* lighter shades of primary color */
-  --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
-  --clr-primary-8: hsl(205, 86%, 81%);
-  --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
+
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-1: red ;
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 23%, 60%);
-  --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
-  --clr-secondary: hsla(182, 63%, 54%);
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
@@ -70,7 +45,6 @@ body {
   color: white;
   line-height: 1.5;
   font-size: 0.875rem;
-  
 }
 ul {
   list-style-type: none;
@@ -112,7 +86,6 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -130,14 +103,10 @@ p {
   body {
     font-size: 1rem;
   }
-  h1,
-  h2,
-  h3,
-  h4 {
+  h1, h2, h3, h4 {
     line-height: 1;
   }
 }
-/*  global classes */
 
 .btn {
   text-transform: uppercase;
@@ -150,7 +119,6 @@ p {
   font-size: 0.875rem;
   border: 2px solid var(--clr-black);
   cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
 .btn:hover {
@@ -165,7 +133,7 @@ p {
 }
 .btn:hover {
   background: var(--clr-white);
-  color: var(--clr-secondary);
+  color: red;
 }
 /* section */
 .section {
@@ -213,10 +181,10 @@ nav {
   box-shadow: var(--light-shadow);
 }
 .fixed-nav .links a {
-  color: var(--clr-grey-1);
+  color: red;
 }
 .fixed-nav .links a:hover {
-  color: var(--clr-secondary);
+  color: blue;
 }
 
 .nav-header {
@@ -226,14 +194,10 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-grey-1);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
-}
-.nav-toggle:hover {
-  color: var(--clr-secondary);
 }
 .logo {
   height: 50px;
@@ -248,7 +212,7 @@ nav {
 }
 .links a {
   background: var(--clr-white);
-  color: var(--clr-grey-5);
+  color:red;
   font-size: 1.1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -258,7 +222,7 @@ nav {
   padding: 0.75rem 0;
 }
 .links a:hover {
-  color: var(--clr-grey-1);
+  color: black;
 }
 @media screen and (min-width: 800px) {
   nav {
@@ -297,7 +261,7 @@ nav {
     padding: 0;
   }
   .links a:hover {
-    color: var(--clr-white);
+    color: red;
   }
 }
 /* hero */
@@ -306,11 +270,16 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.571), rgba(0, 0, 0, 0.125)),
     url(./falcon.jpg) center/cover no-repeat;
 }
-.banner {
+.tittle {
   min-height: 100vh;
   display: grid;
   place-items: center;
   text-align: center;
+}
+.banner {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
 #about {
@@ -347,6 +316,14 @@ header {
   margin-bottom: 1.25rem;
 }
 
+.tittle p {
+  color: white;
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+}
+
 
 @media screen and (min-width: 768px) {
   .container p {
@@ -368,8 +345,8 @@ header {
   height: 80vh;
 }
 footer {
-  background: var(--clr-grey-1);
-  padding: 5rem 1rem;
+  background: black;
+  padding: 4rem 1rem;
 }
 footer p {
   color: white;
