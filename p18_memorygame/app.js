@@ -2,52 +2,52 @@ document.addEventListener('DOMContentLoaded', () => {
 	//card options
 	const cardArray = [
 	  {
-		name: 'fries',
-		img: 'images/fries.png'
+		name: 'bulba',
+		img: 'images/bulba.png'
 	  },
 	  {
-		name: 'cheeseburger',
-		img: 'images/cheeseburger.png'
+		name: 'charmander',
+		img: 'images/charmander.png'
 	  },
 	  {
-		name: 'ice-cream',
-		img: 'images/ice-cream.png'
+		name: 'evee',
+		img: 'images/evee.png'
 	  },
 	  {
-		name: 'pizza',
-		img: 'images/pizza.png'
+		name: 'gengar',
+		img: 'images/gengar.png'
 	  },
 	  {
-		name: 'milkshake',
-		img: 'images/milkshake.png'
+		name: 'pikachu',
+		img: 'images/pikachu.png'
 	  },
 	  {
-		name: 'hotdog',
-		img: 'images/hotdog.png'
+		name: 'squirtle',
+		img: 'images/squirtle.png'
 	  },
 	  {
-		name: 'fries',
-		img: 'images/fries.png'
+		name: 'bulba',
+		img: 'images/bulba.png'
 	  },
 	  {
-		name: 'cheeseburger',
-		img: 'images/cheeseburger.png'
+		name: 'charmander',
+		img: 'images/charmander.png'
 	  },
 	  {
-		name: 'ice-cream',
-		img: 'images/ice-cream.png'
+		name: 'evee',
+		img: 'images/evee.png'
 	  },
 	  {
-		name: 'pizza',
-		img: 'images/pizza.png'
+		name: 'gengar',
+		img: 'images/gengar.png'
 	  },
 	  {
-		name: 'milkshake',
-		img: 'images/milkshake.png'
+		name: 'pikachu',
+		img: 'images/pikachu.png'
 	  },
 	  {
-		name: 'hotdog',
-		img: 'images/hotdog.png'
+		name: 'squirtle',
+		img: 'images/squirtle.png'
 	  }
 	]
   
@@ -79,25 +79,25 @@ document.addEventListener('DOMContentLoaded', () => {
 	  if(optionOneId == optionTwoId) {
 		cards[optionOneId].setAttribute('src', 'images/blank.png')
 		cards[optionTwoId].setAttribute('src', 'images/blank.png')
-		alert('You have clicked the same image!')
+		alert('You can not catch the same Pokemon!')
 	  }
 	  else if (cardsChosen[0] === cardsChosen[1]) {
-		alert('You found a match')
-		cards[optionOneId].setAttribute('src', 'images/white.png')
-		cards[optionTwoId].setAttribute('src', 'images/white.png')
+		alert('You catch the Pokemon!')
+		cards[optionOneId].setAttribute('src', 'images/pokedex.png')
+		cards[optionTwoId].setAttribute('src', 'images/pokedex.png')
 		cards[optionOneId].removeEventListener('click', flipCard)
 		cards[optionTwoId].removeEventListener('click', flipCard)
 		cardsWon.push(cardsChosen)
 	  } else {
 		cards[optionOneId].setAttribute('src', 'images/blank.png')
 		cards[optionTwoId].setAttribute('src', 'images/blank.png')
-		alert('Sorry, try again')
+		alert('The Pokemon run away')
 	  }
 	  cardsChosen = []
 	  cardsChosenId = []
 	  resultDisplay.textContent = cardsWon.length
 	  if  (cardsWon.length === cardArray.length/2) {
-		resultDisplay.textContent = 'Congratulations! You found them all!'
+		resultDisplay.textContent = 'You are the Master Pokemon!!'
 	  }
 	}
   
