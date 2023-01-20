@@ -40,11 +40,11 @@ function addItem(e) {
             <div class="btn-container">
               <!-- edit btn -->
               <button type="button" class="edit-btn">
-                <i class="fas fa-edit"></i>
+                <i class="fa fa-list"></i>
               </button>
               <!-- delete btn -->
               <button type="button" class="delete-btn">
-                <i class="fas fa-trash"></i>
+                <i class="fas fa-check"></i>
               </button>
             </div>
           `;
@@ -57,7 +57,7 @@ function addItem(e) {
     // append child
     list.appendChild(element);
     // display alert
-    displayAlert("item added to the list", "success");
+    displayAlert("TasK AddeD", "success");
     // show container
     container.classList.add("show-container");
     // set local storage
@@ -66,13 +66,13 @@ function addItem(e) {
     setBackToDefault();
   } else if (value !== "" && editFlag) {
     editElement.innerHTML = value;
-    displayAlert("value changed", "success");
+    displayAlert("TasK ChangeD", "success");
 
     // edit  local storage
     editLocalStorage(editID, value);
     setBackToDefault();
   } else {
-    displayAlert("please enter value", "danger");
+    displayAlert("NeeD A TasK", "danger");
   }
 }
 // display alert
@@ -95,7 +95,7 @@ function clearItems() {
     });
   }
   container.classList.remove("show-container");
-  displayAlert("empty list", "danger");
+  displayAlert("C L E A N E D", "danger");
   setBackToDefault();
   localStorage.removeItem("list");
 }
@@ -111,7 +111,7 @@ function deleteItem(e) {
   if (list.children.length === 0) {
     container.classList.remove("show-container");
   }
-  displayAlert("item removed", "danger");
+  displayAlert("TasK DonE", "danger");
 
   setBackToDefault();
   // remove from local storage
@@ -201,11 +201,11 @@ function createListItem(id, value) {
             <div class="btn-container">
               <!-- edit btn -->
               <button type="button" class="edit-btn">
-                <i class="fas fa-edit"></i>
-              </button>
-              <!-- delete btn -->
-              <button type="button" class="delete-btn">
-                <i class="fas fa-trash"></i>
+              <i class="fa fa-list"></i>
+            </button>
+            <!-- delete btn -->
+            <button type="button" class="delete-btn">
+              <i class="fas fa-check"></i>
               </button>
             </div>
           `;
