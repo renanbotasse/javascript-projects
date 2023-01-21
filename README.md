@@ -1,7 +1,7 @@
 <h1>JAVASCRIPT PROJECTS (BEGINNERS)</h1>
 
 <h3>I - PURPOSE</h3>
-The main objective of this list of little projects was training in Javascript and creating some material for my portfolio. These projects are good for the very beginning students and some intermediate.You will see I focus a lot on the javascript but also personalize all the projects, changing the initial proposal for something more interesting. 
+The main objective of this list of little projects was training Javascript and creating some material for my portfolio. These projects are good for the very beginning students and some intermediate. You will see that I focus a lot on the javascript but also personalize all the projects, changing the initial proposal for something more interesting. 
 
 
 <h3>II - BASE</h3>
