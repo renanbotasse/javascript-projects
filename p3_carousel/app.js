@@ -58,8 +58,8 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 //a função serve para pegar os valores do reviews e passar para uma novo objeto sem contaminar o original
 //também faz a mudança da página original para o do item
-function showGame(videogame) {
-	const item = reviews[videogame];
+function showGame(videogameIndex) {
+	const item = reviews[videogameIndex];
 	img.src = item.img;
 	game.textContent = item.game;
 	score.textContent = item.score;
